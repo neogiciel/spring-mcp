@@ -1,0 +1,30 @@
+server:
+  port: 8081
+
+spring:
+
+  application:
+    name: spring-mcp-serveur
+
+  ai:
+    mcp:
+
+      server:
+        name: serveur-mcp-test
+        version: 1.0.0
+        protocol: STREAMABLE
+
+     
+        streamable-http:
+          connections:
+            serveur-usager:
+              url: http://localhost:8080
+
+  output:
+    ansi:
+      enabled: ALWAYS
+
+
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %cyan(%msg%n)"

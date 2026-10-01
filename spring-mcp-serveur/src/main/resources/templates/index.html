@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Spring MCP Serveur (Neogiciel)</title>
+
+    <!-- Mets ici ton CSS (celui que je t’ai envoyé) -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Topbar -->
+    <header class="topbar">
+      <div class="container topbar__inner">
+        <div class="topbar__left">
+          <!-- Logo (placeholder) -->
+          <div style="font-weight:700">NEOGICIEL</div>
+        </div>
+
+        <div class="topbar__spacer"></div>
+
+        <label class="search" aria-label="Rechercher">
+          <!-- icône loupe (svg simple) -->
+          <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor" d="M10 4a6 6 0 1 1 0 12a6 6 0 0 1 0-12m0-2a8 8 0 1 0 4.9 14.3l4.4 4.4l1.4-1.4l-4.4-4.4A8 8 0 0 0 10 2z"/>
+          </svg>
+
+          <input type="search" placeholder="Rechercher une Application" />
+          <span class="kbd">Ctrl K</span>
+        </label>
+
+        <div class="topbar__right">
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero">
+        <div class="hero__art" aria-hidden="true"></div>
+        <div class="container">
+          <h1 class="hero__title">Applications Spring MCP Serveur</h1>
+          <p class="hero__lead">
+            Applications de démonstration de Mise en place de MCP
+          </p>
+        </div>
+      </section>
+
+      <!-- Cards -->
+      <section class="hero">
+        <div class="container"><b>Ressources et Tools</b></div>
+      </section>
+      <section class="cards">
+        <div class="container">
+          <div class="cards__grid">
+            
+            
+             <!-- Card 1 -->
+            <article class="card card--vertical">
+            <img class="card__image" src="images/keycloack.png">
+            <div class="card__content">
+                <h3 class="card__title">Application Client</h3>
+                <a class="card__link" href="http://localhost:8080">Accèder au Client</a>
+            </div>
+            </article>
+
+            <!-- Card 2 -->
+            <article class="card card--vertical">
+            <img class="card__image" src="images/mcp.png">
+            <div class="card__content">
+                <h3 class="card__title">Accès aux Tools</h3>
+                <a class="card__link" href="http://localhost:8080/mcpserver/init">Initialize</a><br>
+                <a class="card__link" href="http://localhost:8080/mcpserver/list">List</a><br>
+                <a class="card__link" href="http://localhost:8080/mcpserver/tools1">Tools1</a><br>
+                <a class="card__link" href="http://localhost:8080/mcpserver/tools2">Tools2</a><br>
+            </div>
+            </article>
+
+        </div>
+        </div>
+      </section>
+
+        
+
+    </main>
+  </body>
+</html>

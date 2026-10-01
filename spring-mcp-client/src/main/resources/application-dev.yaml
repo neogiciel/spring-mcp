@@ -1,0 +1,24 @@
+server:
+  port: 8080
+
+spring:
+  ai:
+    ollama:
+      base-url: http://192.168.1.12:32688
+      chat:
+        model: llama3.2
+      embedding:
+        model: nomic-embed-text
+
+  application:
+    name: spring-mcp-client
+
+  output:
+    ansi:
+      enabled: ALWAYS
+
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %cyan(%msg%n)"
+
+

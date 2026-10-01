@@ -1,0 +1,8 @@
+spring.application.name=spring-mcp-server
+#port
+server.port=8080
+
+#log
+spring.output.ansi.enabled=ALWAYS
+logging.pattern.console= %d{yyyy-MM-dd HH:mm:ss} - %cyan(%msg%n)
+

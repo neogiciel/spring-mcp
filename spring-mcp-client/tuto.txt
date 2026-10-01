@@ -1,0 +1,4 @@
+#Recherche Structure
+curl.exe -X PUT "http://localhost:8080/putquestion" --data-urlencode "question=Recherche la structure ayant le SIRET 12345678901234"
+#Recherche Usager
+curl.exe -X PUT "http://localhost:8080/putquestion" --data-urlencode "question=Donne moi le nom est le prenom de l usager ayant le RCU 1234 et uniquement ces deux informations"
